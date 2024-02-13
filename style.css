@@ -1,0 +1,20 @@
+.father{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    padding: 10px;
+    border: 2px;
+    border-radius: 2px;
+    background:teal;
+}
+button:hover{
+    background: bisque;
+}
